@@ -36,6 +36,11 @@ git init
 ```bash
 git status
 ```
+* Para Agregar nuevos cambios
+```bash
+git add .
+```
+
 * Para usar commit
 
 ```bash
