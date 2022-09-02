@@ -46,3 +46,11 @@ git add .
 ```bash
 git commit -m "phrase"
 ```
+[ ] git log retorna un `ID`con este id vamos a poder ver el detalle de los camvios que se hicieron con ese commit
+```bash
+git log 
+```
+```bash
+git show "ID"
+```
+
