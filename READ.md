@@ -36,3 +36,8 @@ git init
 ```bash
 git status
 ```
+* Para usar commit
+
+```bash
+git commit -m "phrase"
+```
