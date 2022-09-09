@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- **Para crear un formulario se necesita la etiqueta form -->
+
+    <form action="">
+        <!-- !Lo que esta adentro son las partes del formulario -->
+        <!-- !CASI TODOS LOS TIPOS DE INPUT TIENEN PLACEHOLDER -->
+        <p>
+        <!-- input tipo texto -->
+            <input id="input-nombre" type="text" placeholder="Ingrese su nombre"/>
+        </p>
+
+        <p>
+        <!-- tipo email -->
+            <input type="email" placeholder="Ingrese su correo">
+        </p>
+
+        <p>
+        <!-- tipo password -->
+            <input type="password" placeholder="contraseña">
+        </p>
+
+        <!-- tipo de fechas -->
+        <p>
+            <input type="date" placeholder="Fecha de nacimiento">
+        </p>
+
+        <p>
+        <!-- Tipo select -->
+            <select>
+
+                <option value="" disabled selected>Selecciona un curso</option>
+                <option value="curso-react">Curso de React</option>
+                <option value="curso-html">Curso de HTML</option>
+                <option value="curso-css">Curso de CSS</option>
+                <option value="curso-angular">Curso de Angular</option>
+
+            </select>
+        </p>
+
+        <!-- boton para enviar datos -->
+        <button type="submit">Enviar datos con boton</button>
+
+        <input type="submit" value="Enviar datos con input"/>
+
+    </form>
+</body>
+</html>
