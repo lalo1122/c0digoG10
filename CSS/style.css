@@ -48,11 +48,73 @@ h1 {
     color: rebeccapurple;
 }
 
+.product_cell:hover {
+    border: 3px dashed blue;
+    box-shadow: 10px 10px 10px #000;
+    cursor: grab;
+}
+
+.product_cell:hover >img{
+    opacity: 0.5;
+    border: 4px solid black;
+}
+
 .aud > h3 {
     color: midnightblue;
     text-align: right;
     padding-right: 10px;
 }
+
+.div_form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.div_form > form > input {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.div_form > form > input:focus {
+
+    border: 2px solid blue;
+}
+
+.div_form > form > button {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 28%;
+}
+
+.div_form > form > button:hover {
+    background-color: #666;
+    border: none;
+    color: #fff;
+    cursor: pointer;    
+}
+
+.div_form > form > button:focus {
+    border: 2px solid red;
+}
+
+/* Pseud-elementos */
+.price::before {
+    content: "$ ";
+    font-size: 12px;
+}
+
+.price::after {
+    content: ".00";
+    font-size: 12px;
+}
+
+
 /* h1[role="titulo"] {
     font-size: 60px;
 } */
