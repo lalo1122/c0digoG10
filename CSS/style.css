@@ -20,8 +20,39 @@ h1 {
     margin: 20px;
 }
 
+.laptop > h2 {
+    color: blue;
+}
+
+.laptop > h3 {
+    color: cadetblue;
+    text-align: right;
+    padding-right: 10px;
+}
 
 
+/* iphone 13 */
+.celular > h2 {
+    color: greenyellow;
+}
+
+.celular > h3 {
+    color: aqua;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Audifonos */
+
+.aud > h2 {
+    color: rebeccapurple;
+}
+
+.aud > h3 {
+    color: midnightblue;
+    text-align: right;
+    padding-right: 10px;
+}
 /* h1[role="titulo"] {
     font-size: 60px;
 } */
