@@ -1,0 +1,49 @@
+/* selectores */
+/* selector de elementos */
+
+h1 {
+    color: green;
+    text-decoration: underline;
+    background-color: beige;
+    padding: 30px;
+    text-align: center;
+}
+
+#div_temas {
+    display: none;
+}
+
+.product_cell {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+/* h1[role="titulo"] {
+    font-size: 60px;
+} */
+
+/* Selector de clase */
+/* .titulo {
+    color: red;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+/* Selector Id */
+/* #titulo_Huawei {
+    color: yellow;
+
+}
+
+.big_table {
+    font-size: 30px;
+    border: 1px solid #ccc;
+}
+
+.big_table th, td {
+    padding: 20px;
+} */ 

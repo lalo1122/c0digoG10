@@ -1,90 +1,106 @@
 <html>
-    <head>
-        <title>
-            Inicio-c0digoG10
-        </title>
-    </head>
-    <body>
-
-        <div style="width: 1150px; margin: 10px auto;">
-            <header>
-                <h1 style="text-align: center;">Apple.com</h1>
-                <!-- párrafo -->
-                <p style="text-align: center;">
-                    Productos Top
-                </p>
-            </header>
-    
-            <main>
-                <!-- Seccion tabla -->
-                <div>
-                    <h4>Temas</h4>
-                    <ul>
-                      <li>
-                        <a href="./formulario.html">Formularios</a>
-                      </li>
-                      <li>
-                        <a href="./tablas.html">Tablas</a>
-                      </li>
-                    </ul>
-                  </div>
-        
-
-                </div>
-                
-                <table>
-                    <!-- fila  -->
-                    <tr>
-                        <!-- celda para que se vea la tabla -->
-                        <td>
-                            <div  style="border: 2px solid #000; border-radius: 20px; padding: 10px; margin:20px;">
-                                <h2 style="border-bottom: 1px solid;">Iphone 13</h2>
-                                <!-- Ingresar imágenes -->
-                                <!-- src = Ruta de imagen  -->
-                                <img height="200px" width="200px" src="https://www.apple.com/newsroom/images/product/iphone/geo/Apple_HowToBuy_iPhone-13-Pro_GEO_09162021_carousel.jpg.large.jpg"  alt="Iphone 13 pro">
-                            </div>
-                        </td>
-                        <td>
-                            <div style="border: 2px solid #000; border-radius: 20px; padding: 10px; margin:20px;">
-                                <h2 style="border-bottom: 1px solid;">Macbook Pro</h2>
-                                <img height="200px" width="200px" src="https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg"  alt="macbook pro pro">
-                            </div>    
-                        </td>
-                        <td>
-                            <div style="border: 2px solid #000; border-radius: 20px; padding: 10px; margin:20px;">
-                                <h2 style="border-bottom: 1px solid;">Airpods Pro</h2>
-                                <img height="200px" width="300px" src="https://puntocell.com.mx/wp-content/uploads/2022/01/airpods-pro.jpg"  alt="Airpods pro">    
-                            </div>
-                        </td>
-                        <td>
-                            <div style="border: 2px solid #000; border-radius: 20px; padding: 10px; margin:20px;">
-                                <h2 style="border-bottom: 1px solid;">Ipad Air</h2>
-                                <img height="200px" width="200px" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-spacegray-202203?wid=470&hei=556&fmt=png-alpha&.v=1645066742664"  alt="Ipad air">
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-        
-            </main>
-    
-            <footer>
-                <p style="text-align: center;"> Hecho con cariño por Nixon Guevara</p>
-            </footer>
-
+  <head>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div style="width: 800px; margin: 10px auto">
+      <header>
+        <h1 style="text-align: center">Apple.com</h1>
+        <p style="text-align: center">Productos top</p>
+      </header>
+      <main>
+        <div id="div_temas" style="display: none;">
+          <h4>Temas</h4>
+          <ul>
+            <li>
+              <a href="./formulario.html">Formularios</a>
+            </li>
+            <li>
+              <a href="./tablas.html">Tablas</a>
+            </li>
+          </ul>
         </div>
-        <!-- iniciando titulos -->
-        <!-- ctrl +k + u para comentar -->
-        <!-- <h1>
-            Primer orden 
-        </h1>
-        <h2>
-            Segundo orden
-        </h2>
-        <h3>Tercer orden</h3>
-        <h4>Cuarto orden </h4>
-        <h5>Quinto orden</h5>
-        <h6>Sexto orden</h6>     -->
-    <!-- Estuve aqui -->
-    </body>
-
+        <table>
+          <tr>
+            <td>
+              <div class="product_cell">            
+                <h2>iPhone 13</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1632633173522-47456de71b76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                  alt="Foto de iPhone 13 color silver"
+                />
+              </div>
+            </td>
+            <td>
+              <div
+              class="product_cell"
+              >
+                <h2>Macbook Pro</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1615750185825-fc85c6aba18d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="Foto de macbook pro abierta"
+                />
+              </div>
+            </td>
+            <td>
+              <div
+              class="product_cell"
+              >
+                <h2>Airpods Pro</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="Foto de airpods pro"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div
+              class="product_cell"
+              >
+                <h2>iPhone 14</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1653921167679-7676ed531a58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                  alt="Foto de iPhone 13 color silver"
+                />
+              </div>
+            </td>
+            <td>
+              <div
+              class="product_cell"
+              >
+                <h2>Macbook Air</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1532198528077-0d9e4ca9bb40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80"
+                  alt="Foto de macbook pro abierta"
+                />
+              </div>
+            </td>
+            <td>
+              <div
+              class="product_cell"
+              >
+                <h2>Airpods Max</h2>
+                <img
+                  width="200px"
+                  src="https://images.unsplash.com/photo-1625245488600-f03fef636a3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  alt="Foto de airpods pro"
+                />
+              </div>
+            </td>
+          </tr>
+        </table>
+      </main>
+      <footer>
+        <p style="text-align: center">Hecho con cariño por Código</p>
+      </footer>
+    </div>
+  </body>
 </html>
